@@ -58,6 +58,16 @@
           "template": " \ue5ff {{ .Path }} ",
           "trailing_diamond": "<#ffafd2>}</>",
           "type": "path"
+        },
+        {
+          "foreground": "#A9FFB4",
+          "foreground_templates": ["{{ if gt .Code 0 }}#ef5350{{ end }}"],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": " \ue286 ",
+          "type": "status"
         }
         
        
@@ -98,5 +108,5 @@
     "foreground": "#FEF5ED",
     "template": "\ue285 "
   },
-  "version": 2
+  "version": 3
 }
